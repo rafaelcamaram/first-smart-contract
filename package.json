@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "deploy:goerli": "npx hardhat run scripts/deploy.js --network goerli"
+    "deploy:goerli": "npx hardhat run scripts/deploy.js --network goerli",
+    "postinstall": "npx hardhat compile"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.6",
